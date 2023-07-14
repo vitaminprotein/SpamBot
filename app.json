@@ -1,0 +1,74 @@
+{
+      "name": "SpamBot",
+      "description": "TELEGRAM SPAM BOT, Please give a star  🥺  🥺  🥺 ",
+      "logo": "https://telegra.ph/file/0dbf23f76e6c77d037b42.jpg",
+      "keywords": [
+         "telegram",
+         "Spam-Bot",
+         "Spambot",
+         "Telethon",
+         "Pyrogram",
+         "Gladiators",
+         "Gladiators-Projects"
+      ],   
+   "repository": "https://t.me/Gladiators_Support",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "Bot_Token": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },    
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": ""
+      },
+      "BOT_ID": {
+         "description": "Your bot ID.. Use any other bot to get it.",
+         "required": true,
+         "value": ""
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "value": ""
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+        "required": false
+      },
+      "OWNER_NAME": {
+         "description": "The name which will be printed as the master's name!!",
+         "required": true,
+         "value": ""
+      },
+      "DEV_USERS": {
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Gladiators support then keep the current ID's here at they are and add yours.",
+         "required": false,
+         "value": "1709144863"
+      },
+      "SUDO_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": ""
+      }
+      
+   }
+}

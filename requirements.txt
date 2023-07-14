@@ -1,0 +1,4 @@
+telethon==1.16.4
+heroku3
+asyncio
+python-decouple==3.4
